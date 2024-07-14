@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base:"/salati/",
   plugins: [react()],
+  build: {
+    outDir: 'dist', // This should be the output directory
+  },
 })
